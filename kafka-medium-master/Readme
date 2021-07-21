@@ -1,0 +1,16 @@
+Test API Request:
+
+For String Multiple key/value pair:
+
+ POST: localhost:9000/kafka/publish?keys=ProductSale,PurchaseOrder,ASN&message=ASNTestMessage
+ 
+For Json multiple Key/Value pair:
+ 
+ POST: localhost:9000/kafka/publishTransaction?keys=Key1,Key2,ASN
+
+ Request Json Message:
+
+ {
+"name":"ASNMessage",
+"type": "json"
+} 

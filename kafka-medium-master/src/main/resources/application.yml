@@ -1,0 +1,10 @@
+server:
+  port: 9000
+kafka:
+  topic: TestAWS
+  topic1: TestJson
+  api:
+    key: Key2
+  consumerGroupId1: group_id1
+  consumerGroupId2: group_id2
+  server: localhost:9092
